@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title> Encriptador </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="Recursos/favicon.png"/>
+        
+    </head>
+    <body>
+        <header>
+            <a class="logo" href="index.html">
+                <img src="Recursos/Vector.png" alt="Img/Logo Alura">   <!-- Logo encabezado -->
+            </a>
+        </header>
+
+
+        <main>
+
+           <section  class="txt-entrada">
+                <textarea class="txt-area" placeholder=" Ingrese el Texto Aqui!"></textarea>
+
+                <div class="informacion-terminos">
+                    <p>Solo Letras Minusculas y sin Acento</p>
+                    <img src="Recursos/icon_info.png" alt="info">
+                </div>
+
+                <div class="contenedor-button">
+                    <input type="button" value="Encriptar" class="button-encriptar">
+                    <input type="button" value="Desencriptar" class="button-desencriptar">
+                </div>
+           </section>
+           
+           <section class="txt-salida">
+                <div class="img-muñeco">
+                    <img src="Recursos/Muñeco.png" width="250">
+                </div>
+
+                <div class="contenedor-h3 ">
+                    <h3> Ningun Mensaje Fue Encontrado</h3>
+                </div>
+
+                <div class="contenedor-parrafo ">
+                    <p>Ingresa el Texto que Desea Encriptar o Desencriptar </p>
+                </div>
+
+                <div class="contenedor-resultado">
+                    <h3>Mensaje Encriptado</h3>
+                    <textarea class="txt-resultado"></textarea>
+                </div>
+
+                <div class="contenedor-copiar">
+                    <input type="button" class="btn-copiar"  value="Copiar">
+                </div>
+
+           </section>
+        
+        </main>
+
+
+        <footer>
+            <div class="github">
+                <a href="https://github.com/JokerC0">
+                    <img src="Recursos/icon_github.png" width="30px">
+                </a>
+            </div>
+            <p><strong> Encriptador de Texto Desarrollado por <a href="https://github.com/JokerC0" class="link">[Eduard Sepulveda]</a> </strong></p>
+            
+        </footer>
+
+
+        <script src="script.js"></script>
+
+    </body>
+
+
+
+
+</html>

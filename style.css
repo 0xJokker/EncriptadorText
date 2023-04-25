@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{    
+    background: #f3f5fc;
+}
+
+
+
+header{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+
+.logo{
+    float: left;
+    margin-left: 40px;
+}
+
+
+main{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+section{
+    width: 40%;
+    height: 100%;
+}
+
+
+/* SECCION IZQUIERDA */
+.txt-entrada{
+    float: left;
+    width: 70%;
+    height: auto;
+    
+}
+
+.txt-area{
+    width: 80%;
+    height: 70%;
+    left: 12%;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    resize: none;
+    font-size: 30px;
+    font-family: "inter";
+    font-style: normal;
+    color: #0A3871;
+    background-color: #f3f5fc;
+    border: none;
+}
+
+.txt-area::placeholder{
+    color: #0A3871;
+    opacity: 0.4;
+}
+
+.txt-area:focus, .txt-area:active{
+    border: none;
+    outline: none;
+}
+
+
+.informacion-terminos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    height: 5px;
+    width: 80%;
+    left: 7%;
+    margin-top: 20px;
+}
+
+.informacion-terminos p{
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #495057;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.informacion-terminos img:hover{
+    width: 1.5%;
+}
+
+
+/*BOTONES*/
+.button-encriptar{
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2%;
+    gap: 8px;
+    width: 25%;
+    background-color: #0A3871;
+    border-radius: 24px;
+    font-family: "inter";
+    font-size: 15px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    cursor:pointer ;
+    
+}
+
+.button-desencriptar{
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2%;
+    gap: 8px;
+    width: 25%;
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-family: "inter";
+    font-size: 15px;
+    line-height: 14px;
+    text-align: center;
+    color: #0A3871;
+    cursor:pointer ;
+    
+}
+
+.button-encriptar:hover, .button-desencriptar:hover{
+    margin: 0.3%;
+    width: 24.5%;
+    padding: 1.8%;
+}
+
+.contenedor-button{
+    text-align: center;
+    margin-top: 40px;
+    padding: 1% 0;
+}
+
+
+/* ------------------ */
+
+
+/* SECCION DERECHA */
+.txt-salida{
+    
+    width: 28%;
+    padding: 5px;
+    border-radius: 24px;
+    background: white;
+    margin-right: 25px;
+    box-sizing: border-box;
+    overflow: hidden;
+    top: 5%;
+    box-shadow: 1px 24px 32px -8px rgb(0, 0, 0, 0.30);
+
+}
+
+.img-muñeco{
+    width: 100%;
+    height: 60%;
+    padding-top: 80px;
+    box-sizing: border-box;
+    overflow: auto;
+    text-align: center;
+}
+
+.contenedor-h3{
+    width: 100%;
+    height: 20%;
+    font-size: 20px;
+    text-align: center;
+    font-family: "inter";
+    color: #343A40;
+    line-height: 120%;
+}
+
+.contenedor-parrafo{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    font-family: "inter";
+    color: #495057;
+}
+
+.contenedor-resultado{
+    width: 100%;
+    height: 70%;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: "inter";
+}
+
+.txt-resultado{
+    margin-top: 15px;
+    font-size: 1rem;
+    font-style: normal;
+    font-family: "inter";
+    color: #495057;
+    border: none;
+    resize: none;
+    display: block;
+    height: 90%;
+    width: 100%;
+}
+
+.txt-resultado::placeholder{
+    color: #0A3871;
+    opacity: 0.4;
+}
+
+.txt-resultado:focus, .txt-resultado:active{
+    border: none;
+    outline: none;
+}
+
+
+
+.contenedor-copiar{
+    width: 100%;
+    height: 20%;
+}
+
+.btn-copiar{
+    width: 60%;
+    height: 40px;
+    display: block;
+    margin: auto;
+    font-family: "inter";
+    border: none;
+    background-color: #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor:pointer ;
+}
+
+.btn-copiar:hover{
+    background-color: #87a9d6;
+    border-color: #0A3871;
+    color: black;
+}
+
+/* ------------------ */
+
+
+footer{
+    width: 100%;
+    height: auto; 
+    display: flex;
+    margin-top: 40px;
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 2px;
+    background-color: #0A3871;
+}
+
+footer p{
+    text-align: center;
+    font-style: italic; 
+    padding: 2px;
+    margin-top: 7px;
+    padding-left: 1em;
+}
+
+
+.github{
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin: 0;
+    gap: 3px;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: #6294ff;
+    font-size: 15px;
+}
+
+
+.ocultar{
+    display: none;
+}
+
+
+/* Responsive Design */
+@media (max-width: 57.5em) {
+    .txt-entrada{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .txt-area{
+        position: relative;
+        width: 80%;
+        height: 60%;
+        left: 10%;
+        top: 5%;
+        margin-left: 5%;
+    }
+
+    .informacion-terminos{
+        width: 80%;
+        left: 10%;
+        top: 47%;
+    }
+
+    .informacion-terminos p{
+        font-size: 16px;
+    }
+
+    .contenedor-button{
+        position:absolute;
+        width: 45rem;
+        top: 47%;      
+        align-items: center;
+        align-content: center;
+    }
+
+    .button-encriptar, .button-desencriptar{
+        width: 40%;
+        border-radius: 16px;
+    }
+    .button-desencriptar:hover, .button-encriptar:hover{
+        margin: 0.3%;
+        width: 40%;
+        padding: 1.8%;
+    }
+
+    .txt-salida{
+        flex-direction: row;
+        position: absolute;
+        width: 42em;
+        height: 25%;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        top: 65%;
+        left: 5%;
+    }
+
+    .contenedor-h3{
+        width: 100%;
+        top: 50%;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-top: 10% ;
+        padding: 1%;
+    }
+    .contenedor-parrafo{
+        top: 50%;
+        width: 100%;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin-top: 2em;
+    }
+
+    .img-muñeco{
+        top: 0;
+        display: none;
+        visibility: hidden;
+    }
+
+    footer{
+        position: absolute;
+        width: 45em;
+        margin-top: 20em;   
+    }
+
+}
+
+
