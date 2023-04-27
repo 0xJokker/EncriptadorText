@@ -18,7 +18,7 @@ botonCopiar.onclick = copiarTxt;
 function encriptar() {
     ocultarTxtInicio();
     resultado.textContent = textoEncriptado(recuperarTxt());
-    validarTexto()
+    //validarTexto()
 }
 
 function desencriptar(){
@@ -74,6 +74,7 @@ function textoEncriptado(mensaje){
             textofinal = textofinal + texto[i];
         }
     }
+    
     return textofinal;
 }
 
@@ -111,7 +112,7 @@ function textoDesencriptado(mensaje){
     return textofinal;
 }
 
-
+// MODIFICAR-----------------------
 // Condicion sin Mayusculas ni Acentos  
 function validarTexto(){
     let textoEscrito = txtArea.value;
@@ -125,13 +126,11 @@ function validarTexto(){
 }
 
 
-
 // Copiar Texto en el Portapapeles
-function copiarTxt(){
-    const copy = resultado.value;       
-    navigator.clipboard.writeText(copy);
+function copiarTxt() {
+    var txtcopy = resultado;
+    navigator.clipboard.writeText(txtcopy.value);
     txtArea.value = "";
     txtArea.focus();
-    alert("Texto Copiado en el Portapapeles!")
+    alert("Texto Copiado en el Portapapeles!");
 }
-
