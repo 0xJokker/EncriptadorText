@@ -126,6 +126,7 @@ function validarTexto(){
 }
 
 
+
 // Copiar Texto en el Portapapeles
 function copiarTxt() {
     var txtcopy = resultado;
