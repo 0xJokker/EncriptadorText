@@ -1,13 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "inter", sans-serif;
+    
 }
 
-
-body{    
+body{
     background: #f3f5fc;
 }
-
 
 
 header{
@@ -17,31 +17,32 @@ header{
 }
 
 .logo{
-    float: left;
-    margin-left: 40px;
+    width: 100%;
+    height: 50%;
+    padding-left: 40px;
+    padding-top: 30px;
+    
 }
 
 
 main{
+    position: absolute;
     width: 100%;
-    height: 550px;
+    height: 90%;
     display: flex;
     justify-content: space-between;
 }
 
-
+/*
 section{
     width: 40%;
     height: 100%;
 }
-
+*/
 
 /* SECCION IZQUIERDA */
 .txt-entrada{
-    float: left;
     width: 70%;
-    height: auto;
-    
 }
 
 .txt-area{
@@ -53,11 +54,11 @@ section{
     margin-top: 40px;
     resize: none;
     font-size: 30px;
-    font-family: "inter";
+    font-weight: 400;
     font-style: normal;
     color: #0A3871;
     background-color: #f3f5fc;
-    border: none;
+    border: none; 
 }
 
 .txt-area::placeholder{
@@ -84,10 +85,8 @@ section{
     margin-top: 20px;
 }
 
-.informacion-terminos p{
-    font-family: "inter";
-    font-style: normal;
-    font-weight: 400;
+.informacion-terminos h6{
+    font-weight: 0;
     font-size: 12px;
     color: #495057;
     opacity: 0.8;
@@ -117,12 +116,11 @@ section{
     color: #FFFFFF;
     border: none;
     cursor:pointer ;
+    width: 310px;
     
 }
 
 .button-desencriptar{
-    box-sizing: border-box;
-    flex-direction: row;
     align-items: flex-start;
     justify-content: center;
     padding: 2%;
@@ -137,19 +135,26 @@ section{
     text-align: center;
     color: #0A3871;
     cursor:pointer ;
+    width: 310px;
+
     
 }
 
 .button-encriptar:hover, .button-desencriptar:hover{
     margin: 0.3%;
-    width: 24.5%;
+    width: 300px;
     padding: 1.8%;
 }
 
 .contenedor-button{
+    position: relative;
     text-align: center;
+    justify-content: center;
     margin-top: 40px;
     padding: 1% 0;
+    padding-left: 5%;
+    padding-top: 15px;
+    
 }
 
 
@@ -259,10 +264,7 @@ section{
 
 
 footer{
-    width: 100%;
-    height: auto; 
-    display: flex;
-    margin-top: 40px;
+    margin-top: 600px;
     box-sizing: border-box;
     justify-content: center;
     padding: 2px;
@@ -280,7 +282,7 @@ footer p{
 
 .github{
     float: left;
-    display: flex;
+    display:flex;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
@@ -294,8 +296,7 @@ footer p{
 }
 
 .link:hover{
-    color: #6294ff;
-    font-size: 15px;
+    color: #000000;
 }
 
 
@@ -304,20 +305,20 @@ footer p{
 }
 
 
+
 /* Responsive Design */
-@media (max-width: 57.5em) {
+@media (max-width: 800px) {
     .txt-entrada{
         display: flex;
         flex-direction: row;
         width: 100%;
+        margin-right: 5%;
     }
     .txt-area{
         position: relative;
         width: 80%;
         height: 60%;
-        left: 10%;
         top: 5%;
-        margin-left: 5%;
     }
 
     .informacion-terminos{
@@ -385,9 +386,9 @@ footer p{
     }
 
     footer{
-        position: absolute;
+       
         width: 45em;
-        margin-top: 20em;   
+        margin-top: 50em;   
     }
 
 }
