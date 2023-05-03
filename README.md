@@ -15,7 +15,7 @@ Funciones  estructuradas como encriptar y desencriptar están bien estructuradas
 Interacción con el usuario: El proyecto permite al usuario copiar el resultado del proceso en el portapapeles con un solo clic, lo que mejora la experiencia de usuario.
 
 
-## 📖Caracterisiticas solicitadas
+## 📖Caracterisiticas 
 Las "llaves" de encriptación que se utilizaran son las siguientes:
 
 * La letra "e" es convertida para "enter"
