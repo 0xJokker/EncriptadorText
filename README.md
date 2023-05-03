@@ -1,4 +1,4 @@
-# EncriptadorText
+# 🔒EncriptadorText
 
 ![CHALLENGE](https://user-images.githubusercontent.com/129913584/234436673-cc8b1626-8b3d-4d14-81df-8327517fc79a.PNG)
 
@@ -50,5 +50,5 @@ Un botón que copie el texto encriptado/desencriptado para la sección de transf
 
 https://user-images.githubusercontent.com/129913584/234435301-1de0e7e2-93f7-4a51-83b6-18780dc338b8.mp4
 
-[ https://jokerc0.github.io/EncriptadorText/ ]
+Para probar el encriptador ingresa -->  [ https://jokerc0.github.io/EncriptadorText/ ]
 
