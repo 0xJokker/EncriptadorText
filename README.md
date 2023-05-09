@@ -52,3 +52,6 @@ https://user-images.githubusercontent.com/129913584/234435301-1de0e7e2-93f7-4a51
 
 Para probar el encriptador ingresa -->  [ https://jokerc0.github.io/EncriptadorText/ ]
 
+## Licence
+Apache 2.0 copyright © [2023] All rights reserved **[Eduard Sepulveda]**
+
