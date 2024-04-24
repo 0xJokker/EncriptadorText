@@ -44,7 +44,7 @@ Un botón que copie el texto encriptado/desencriptado para la sección de transf
 
 
 ## Autor
-[Eduard Sepulvda] ----> https://beacons.ai/joker.co
+[Eduard Sepulvda]
 
 
 
